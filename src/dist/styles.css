@@ -16,7 +16,13 @@ body {
 }
 
 .container {
-  max-width: 107rem;
-  margin: 0 auto;
-  padding: 0 4rem;
+  max-width: 133rem !important;
+  margin: 0 auto !important;
+  padding: 0 2.5rem !important;
+}
+.font-rubik {
+  font-family: "Rubik", sans-serif;
+}
+.font-poppins {
+  font-family: "Poppins", sans-serif;
 }

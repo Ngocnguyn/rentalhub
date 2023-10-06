@@ -1,9 +1,15 @@
 import "../src/dist/styles.css";
-import Home from "./components/Home";
+import { Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Home from "./Pages/Home";
+
 function App() {
   return (
     <>
-      <Home />
+      <Navbar />
+      <Routes>
+        <Route index path="/" element={<Home />} />
+      </Routes>
     </>
   );
 }
