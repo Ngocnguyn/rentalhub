@@ -9,8 +9,8 @@ function Navbar() {
           <div className="w-56">
             <img src={Logo} alt="logo-img" className="w-full h-auto" />
           </div>
-          <ul className="lg:flex gap-[2.1rem] list-none text-base font-rubik font-medium text-black hidden text-[16px] ">
-            <li className="cursor-pointer transition-all duration-300 hover:text-[#ff4d30]  ">
+          <ul className="lg:flex gap-[2.1rem] list-none  font-rubik font-medium text-black hidden text-[16px]">
+            <li className="cursor-pointer transition-all duration-300 hover:text-[#ff4d30] ">
               Home
             </li>
             <li className="cursor-pointer transition-all duration-300 hover:text-[#ff4d30]  ">
@@ -40,7 +40,7 @@ function Navbar() {
               className="bg-[#ff4d30] text-white px-10 py-4 rounded-md shadow-md transition-all duration-300 hover:shadow-md hover:bg-[#fa4226] no-underline "
               to="/"
             >
-              Register
+              Sign in
             </Link>
           </div>
           <div className="cursor-pointer text-[2.8rem] transition-all hover:text-[#ff4d30] lg:hidden">
